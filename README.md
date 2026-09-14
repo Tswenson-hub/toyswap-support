@@ -4,11 +4,16 @@ The public privacy policy and support portal for the **ToySwap** iPhone app
 (`com.tyswenson.ToySwap`). These two URLs are what App Store Connect's *Privacy Policy
 URL* and *Support URL* point at, and what the in-app Privacy and Help rows open.
 
+**Live at <https://toyswap-support.vercel.app>.**
+
 | Page | URL | What it is for |
 |---|---|---|
-| Home | `/` | A hub, so the bare domain is not a 404 for a reviewer who trims the path |
-| Support | `/support` | The published developer contact method (Guideline 1.2), plus in-app report/block/delete instructions |
-| Privacy Policy | `/privacy` | Guideline 5.1.1 disclosure, GDPR/UK GDPR and CCPA/CPRA rights |
+| Home | <https://toyswap-support.vercel.app> | A hub, so the bare domain is not a 404 for a reviewer who trims the path |
+| Support | <https://toyswap-support.vercel.app/support> | The published developer contact method (Guideline 1.2), plus in-app report/block/delete instructions |
+| Privacy Policy | <https://toyswap-support.vercel.app/privacy> | Guideline 5.1.1 disclosure, GDPR/UK GDPR and CCPA/CPRA rights |
+
+Paste the second and third into App Store Connect as the **Support URL** and the
+**Privacy Policy URL**.
 
 ## Deliberately boring
 
