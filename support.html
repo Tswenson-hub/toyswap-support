@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — ToySwap</title>
+<meta name="description" content="Contact ToySwap support: report a problem, report abusive or unsafe content, ask a question, or request account deletion.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='9' fill='%236b3fa0'/></svg>">
+</head>
+<body>
+<div class="wrap">
+
+<header class="site">
+  <a class="logo" href="/"><span class="mark" aria-hidden="true"></span>ToySwap</a>
+  <nav class="site" aria-label="Primary">
+    <a href="/">Home</a>
+    <a href="/support" aria-current="page">Support</a>
+    <a href="/privacy">Privacy Policy</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Support</h1>
+  <p class="lede">One person reads this inbox. Write in plain English and you will get a real reply.</p>
+
+  <!-- The address is plain text and not assembled by script, so it is readable and
+       copyable with JavaScript off. This is the published developer contact method. -->
+  <div class="card">
+    <h2>Email us</h2>
+    <div class="mailrow">
+      <a href="mailto:tyswenson34@gmail.com" id="mailto-plain">tyswenson34@gmail.com</a>
+      <button class="secondary" type="button" data-copy="tyswenson34@gmail.com">Copy address</button>
+    </div>
+    <p class="meta mailnote">
+      We reply to every message. <strong>Reports of abuse, unsafe items or a photo showing a
+      person are actioned within 24 hours</strong>, usually much sooner. Everything else is
+      normally answered within two business days.
+    </p>
+  </div>
+
+  <h2>Send us the details</h2>
+  <p>
+    Fill this in and we will open your email app with everything already written out. Nothing is
+    sent from this page and nothing you type here is stored or transmitted anywhere — the button
+    simply composes the message for you, and you send it yourself.
+  </p>
+
+  <form class="card" id="support-form" novalidate>
+    <label for="topic">What is this about?
+      <select id="topic" name="topic">
+        <option value="A problem with the app">A problem with the app</option>
+        <option value="Report abuse or unsafe content">Report abuse, a person in a photo, or an unsafe item</option>
+        <option value="My photo was rejected">My photo was rejected</option>
+        <option value="Account or sign-in trouble">Account or sign-in trouble</option>
+        <option value="Delete my account">Delete my account and my data</option>
+        <option value="Hosting an event">Hosting an event in my area</option>
+        <option value="Privacy or data request">Privacy or data request</option>
+        <option value="Something else">Something else</option>
+      </select>
+    </label>
+
+    <label for="summary">One-line summary
+      <input id="summary" name="summary" type="text" maxlength="120"
+             placeholder="e.g. The catalog is empty even though I listed three toys">
+    </label>
+
+    <label for="account">The email address on your ToySwap account
+      <span class="hint">Optional, but we usually cannot look anything up without it.</span>
+      <input id="account" name="account" type="email" autocomplete="email" placeholder="you@example.com">
+    </label>
+
+    <label for="device">iPhone model and iOS version
+      <span class="hint">Optional. Settings → General → About.</span>
+      <input id="device" name="device" type="text" maxlength="80" placeholder="e.g. iPhone 15, iOS 18.2">
+    </label>
+
+    <label for="details">What happened?
+      <span class="hint">If something went wrong, tell us what you tapped and what you expected instead.</span>
+      <textarea id="details" name="details"
+                placeholder="Describe the problem here. Screenshots help — attach them to the email once it opens."></textarea>
+    </label>
+
+    <div class="actions">
+      <button class="primary" type="submit">Open in my email app</button>
+      <button class="secondary" type="button" id="copy-message">Copy the message instead</button>
+    </div>
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+  </form>
+
+  <div class="note">
+    <p><strong>If someone is in immediate danger, contact your local emergency services first.</strong>
+    ToySwap is a small app and cannot respond to emergencies.</p>
+    <p>To report a product recall or an unsafe children's product in the United States, use the
+    <a href="https://www.cpsc.gov/Recalls" rel="noopener">CPSC recall database</a>.</p>
+  </div>
+
+  <h2>Things you can do inside the app</h2>
+
+  <h3>Report a listing, a person or an event</h3>
+  <p>
+    Tap the flag icon in the top right of any listing, on a member's profile, or on an event page.
+    Reports go to a queue a person reads. We act on reports of objectionable content and abusive
+    members within 24 hours, and we remove content and suspend accounts where it is warranted.
+  </p>
+
+  <h3>Block someone</h3>
+  <p>
+    Open the member's profile and choose Block. You and that person will stop seeing each other's
+    listings in both directions, and neither of you can claim anything from the other.
+  </p>
+
+  <h3>Delete a listing</h3>
+  <p>
+    Open the listing from <strong>My Toys</strong> and choose Delete. If you would rather keep it
+    but hide it from everyone, choose Withdraw instead.
+  </p>
+
+  <h3>My photo was not posted</h3>
+  <p>
+    Every photo is checked automatically before other members can see it, and anything that looks
+    like it contains a person is refused. The check is deliberately cautious and it cannot always
+    tell a doll or a figure from a real face, so <strong>toys with faces are sometimes refused by
+    mistake</strong>. Open the listing and it will tell you what the check thought it saw.
+  </p>
+  <p>
+    A photo gets one pass through that check and cannot be swapped out afterwards, so the fix is to
+    delete the listing and add the toy again with a different picture — a different angle, or the
+    toy's face turned away, usually clears it. If you think a photo was refused wrongly, email us
+    and we will look at it ourselves.
+  </p>
+
+  <h3>Delete your account</h3>
+  <p>
+    Email us from the address you signed up with, or use the form above with
+    <em>Delete my account and my data</em> selected. We delete your account, your listings, your
+    photos and your records within 30 days and email you to confirm. See
+    <a href="/privacy#rights">Your rights and choices</a> for what is kept afterwards and why.
+  </p>
+
+  <h2>Who we are</h2>
+  <p>
+    ToySwap is built and run by Ty Swenson, an independent developer in Tennessee, United States.
+    There is no support team and no phone line — email is the way to reach us, and it reaches a
+    person.
+  </p>
+</main>
+
+<footer class="site">
+  <nav aria-label="Footer">
+    <a href="/">Home</a>
+    <a href="/support">Support</a>
+    <a href="/privacy">Privacy Policy</a>
+  </nav>
+  <p>ToySwap · Developed by Ty Swenson · <a href="mailto:tyswenson34@gmail.com">tyswenson34@gmail.com</a></p>
+</footer>
+
+</div>
+<script src="/assets/support.js" defer></script>
+</body>
+</html>
